@@ -13,8 +13,8 @@ function Login() {
   const navigate = useNavigate();
   const { register, handleSubmit, formState: { errors }, setError } = useForm({
     values: {
-      email: 'aa@bb.cc',
-      password: '********'
+      email: 'sugang@su.gang',
+      password: '11111111'
     }
   });
 
