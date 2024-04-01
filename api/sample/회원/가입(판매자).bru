@@ -1,0 +1,22 @@
+meta {
+  name: 가입(판매자)
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{url}}/users
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "email": "ttt-s@market.com",
+    "password": "12345678",
+    "name": "ttt셀러",
+    "type": "usesellerr",
+    "phone": "01011112222",
+    "address": "샌디에이고"
+  }
+}

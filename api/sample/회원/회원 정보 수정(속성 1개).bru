@@ -1,0 +1,17 @@
+meta {
+  name: 회원 정보 수정(속성 1개)
+  type: http
+  seq: 5
+}
+
+patch {
+  url: {{url}}/users/37
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "address": "샌디에이고"
+  }
+}
